@@ -4,6 +4,12 @@ import java.util.Scanner;   // Importa o Scanner (input)
 
 public class Main {
 
+    // Public = pode ser acessado de qualquer lugar
+    // Static = pertence à classe
+    // Void = não retorna valor
+    // String[] args = parâmetro que representa um array de Strings. 
+    // Ele recebe os argumentos passados pela linha de comando quando 
+    // o programa é executado.
     public static void main(String[] args) {
         // Input - Class Scanner + nome
         Scanner myScanner;
@@ -47,4 +53,5 @@ public class Main {
 
         System.out.println("\nVocê recebeu $" + playerMoney + "!");
     }
+
 }
